@@ -32,6 +32,13 @@ The initial topology consists of routers, switches, and PCs, with IP configurati
 Initial Setup:  <br/>
 <img src="https://imgur.com/TMCs9i3.png" height="80%" width="80%" alt="Initial Setup"/>
 </p>
+
+Connecting Devices
+After setting up the topology, the devices were interconnected using copper straight-through cables to establish connections between PCs, switches, and routers. This ensures proper communication paths within the network.
+Screenshot of the connected setup:
+<p align="center">
+<img src="https://imgur.com/xbeZNwa.png" height="80%" width="80%" alt="Connecting Devices"/>
+</p>
 ---
 
 ### **2. Configuring the Router and Switch CLI**
@@ -49,13 +56,29 @@ ip address 192.168.1.1 255.255.255.0
 no shutdown
 ```
 
-*Screenshot of router CLI configuration:*  
-![Router Configuration](./path/to/router_configuration_image.png)
+
+<h2>Screenshot of router CLI configuration:</h2>
+<p align="center">
+Router Configuration on interface G0/0:  <br/>
+<img src="https://imgur.com/Qd7AqmC.png" height="80%" width="80%" alt="Router Configuration"/>
+<img src="https://imgur.com/Oo5CVyY.png" height="80%" width="80%" alt="Router Configuration"/>
+</p>
 
 Similarly, the switches are configured to assign management IPs and enable VLANs if needed.
 
-*Screenshot of switch CLI configuration:*  
-![Switch Configuration](./path/to/switch_configuration_image.png)
+<h2>Screenshot of switch CLI configuration:</h2>
+<p align="center">
+Switch Configuration:  <br/>
+
+S1:
+<img src="https://imgur.com/FJgE43b.png" height="80%" width="80%" alt="Switch Configuration"/>
+
+<br/>
+<br/>
+S2:
+<img src="https://imgur.com/lQnIMGu.png" height="80%" width="80%" alt="Switch Configuration"/>
+
+</p>
 
 ---
 
