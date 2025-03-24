@@ -64,18 +64,18 @@ Router Configuration on interface G0/0:  <br/>
 <img src="https://imgur.com/Oo5CVyY.png" height="80%" width="80%" alt="Router Configuration"/>
 </p>
 
-Similarly, the switches are configured to assign management IPs and enable VLANs if needed.
+<h2>Similarly, the switches are configured to assign management IPs and enable VLANs if needed.</h2>
 
 <h2>Screenshot of switch CLI configuration:</h2>
 <p align="center">
-Switch Configuration:  <br/>
+Switch Configuration:
 
-S1:
+<h3>S1:</h3>
 <img src="https://imgur.com/FJgE43b.png" height="80%" width="80%" alt="Switch Configuration"/>
 
 <br/>
 <br/>
-S2:
+<h3>S2:</h3>
 <img src="https://imgur.com/lQnIMGu.png" height="80%" width="80%" alt="Switch Configuration"/>
 
 </p>
@@ -84,9 +84,12 @@ S2:
 
 ### **3. Configuring PCs**
 Each PC's IP settings were manually configured using the built-in IP configuration tool.
-
-*Screenshot of IP configuration for PC0:*  
-![PC IP Configuration](./path/to/pc0_ip_configuration_image.png)
+<p align="center">
+<h4>PC0:</h4> <img src="https://imgur.com/JFsVC2c.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+<h4>PC1:</h4> <img src="https://imgur.com/bPUM3ty.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+<h4>PC2:</h4> <img src="https://imgur.com/fGADqtY.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+<h4>PC3:</h4> <img src="https://imgur.com/lHm53IK.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+</p>
 
 ---
 
