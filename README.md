@@ -124,7 +124,7 @@ Using Packet Tracer's simulation mode, ICMP packets (ping requests) were sent be
 
   <strong>Packet Reaches PC3</strong><br/>
   At time <strong>0.004 seconds</strong>, Switch S2 delivers the ICMP Echo Request packet to <strong>PC2 (192.168.1.4)</strong>.<br/>
-  <img src="https://imgur.com/QjntCoE.ong" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
+  <img src="https://imgur.com/QjntCoE.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
   <strong>PC2 Sends the Ping Reply</strong><br/>
   PC2 responds with an ICMP Echo Reply packet, which begins its journey back to PC0.<br/>
