@@ -165,4 +165,3 @@ All devices were able to communicate across the network, demonstrating a success
 
 ---
 
-Feel free to attach the images you've prepared into the placeholders (e.g., `./path/to/initial_setup_image.png`) in your GitHub repo. Let me know if you'd like me to help format any specific part further!
