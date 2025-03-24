@@ -28,7 +28,8 @@ The initial topology consists of routers, switches, and PCs, with IP configurati
 | PC3        |           | 192.168.1.4  | 255.255.255.0   | 192.168.1.1     |
 
 *Screenshot of the initial setup:*  
-![Initial Setup](https://imgur.com/a/eZ0zdX3)
+![Initial Setup](https://imgur.com/TMCs9i3)
+
 
 ---
 
