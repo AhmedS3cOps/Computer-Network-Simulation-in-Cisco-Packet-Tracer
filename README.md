@@ -93,7 +93,7 @@ Each PC's IP settings were manually configured using the built-in IP configurati
 
 Logical View:
 <p align="center">
-<img src="https://imgur.com/re0dmxK.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+<img src="https://imgur.com/rII4vgQ.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
 
 </p>
 
