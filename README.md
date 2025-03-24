@@ -104,45 +104,49 @@ Using Packet Tracer's simulation mode, ICMP packets (ping requests) were sent be
 
 *Screenshot of simulation process:*  
 <p align="center">
-  <strong>Steps of the Simulation</strong>
+  <strong>Steps of the Simulation</strong><br/>
 
-  <ol>
-    <li><strong>PC0 Sends the Ping Request</strong>  
-      At time <strong>0.000 seconds</strong>, PC0 generates an ICMP Echo Request packet (ping) and sends it to its default gateway, <strong>Router R1 (192.168.0.1)</strong>, via <strong>Switch S1</strong>.
-    </li>
+  <strong>PC0 Sends the Ping Request</strong><br/>
+  At time <strong>0.000 seconds</strong>, PC0 generates an ICMP Echo Request packet (ping) and sends it to its default gateway, <strong>Router R1 (192.168.0.1)</strong>, via <strong>Switch S1</strong>.<br/>
+  <img src="https://imgur.com/1L7zQOC.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Packet Travels from PC0 to Switch S1</strong>  
-      At time <strong>0.001 seconds</strong>, the packet moves from PC0 to <strong>Switch S1 (192.168.0.2)</strong>.
-    </li>
+  <strong>Packet Travels from PC0 to Switch S1</strong><br/>
+  At time <strong>0.001 seconds</strong>, the packet moves from PC0 to <strong>Switch S1 (192.168.0.2)</strong>.<br/>
+  <img src="https://imgur.com/iuvMOVg.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Switch S1 Forwards the Packet to Router R1</strong>  
-      At time <strong>0.002 seconds</strong>, Switch S1 identifies the packet’s destination and forwards it to <strong>Router R1 (192.168.0.1)</strong> via interface g0/0.
-    </li>
+  <strong>Switch S1 Forwards the Packet to Router R1</strong><br/>
+  At time <strong>0.002 seconds</strong>, Switch S1 identifies the packet’s destination and forwards it to <strong>Router R1 (192.168.0.1)</strong> via interface g0/0.<br/>
+  <img src="https://imgur.com/JeAzdKb.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Router R1 Routes the Packet to Switch S2</strong>  
-      At time <strong>0.003 seconds</strong>, Router R1 examines its routing table, determines that the destination IP is on the <strong>192.168.1.0/24 subnet</strong>, and forwards the packet to <strong>Switch S2 (192.168.1.2)</strong> via interface g0/1.
-    </li>
+  <strong>Router R1 Routes the Packet to Switch S2</strong><br/>
+  At time <strong>0.003 seconds</strong>, Router R1 examines its routing table, determines that the destination IP is on the <strong>192.168.1.0/24 subnet</strong>, and forwards the packet to <strong>Switch S2 (192.168.1.2)</strong> via interface g0/1.<br/>
+  <img src="https://imgur.com/FyzoVZM.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Packet Reaches PC2</strong>  
-      At time <strong>0.004 seconds</strong>, Switch S2 delivers the ICMP Echo Request packet to <strong>PC2 (192.168.1.4)</strong>.
-    </li>
+  <strong>Packet Reaches PC3</strong><br/>
+  At time <strong>0.004 seconds</strong>, Switch S2 delivers the ICMP Echo Request packet to <strong>PC2 (192.168.1.4)</strong>.<br/>
+  <img src="https://imgur.com/QjntCoE.ong" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>PC2 Sends the Ping Reply</strong>  
-      PC2 responds with an ICMP Echo Reply packet, which begins its journey back to PC0.
-    </li>
+  <strong>PC2 Sends the Ping Reply</strong><br/>
+  PC2 responds with an ICMP Echo Reply packet, which begins its journey back to PC0.<br/>
+  <img src="https://imgur.com/FyzoVZM.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Reply Packet Travels Back Through the Network</strong>  
-      The Echo Reply follows the reverse path:  
-      <ul>
-        <li><strong>PC2 → Switch S2 → Router R1</strong></li>
-        <li><strong>Router R1 → Switch S1 → PC0</strong></li>
-      </ul>
-    </li>
+  <strong>Reply Packet Travels Back Through the Network</strong><br/>
+  The Echo Reply follows the reverse path:<br/>
+  - <strong>PC2 → Switch S2 → Router R1</strong><br/>
+  <img src="https://imgur.com/JeAzdKb.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
+  
+  - <strong>Router R1 → Switch S1 → PC0</strong><br/>
+  
+  <img src="https://imgur.com/iuvMOVg.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
 
-    <li><strong>Ping Successful</strong>  
-      At time <strong>0.008 seconds</strong>, PC0 receives the Echo Reply, confirming that communication between the two devices is functional.
-    </li>
-  </ol>
+  <strong>Ping Successful</strong><br/>
+  At time <strong>0.008 seconds</strong>, PC0 receives the Echo Reply, confirming that communication between the two devices is functional.<br/>
+  <img src="https://imgur.com/jOODYo5.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
+
+  <strong>Simulation Table</strong><br/>
+  <img src="https://imgur.com/yAVVFHz.png" height="80%" width="80%" alt="Configuring PCs"/><br/><br/>
+
+
 </p>
 
 
