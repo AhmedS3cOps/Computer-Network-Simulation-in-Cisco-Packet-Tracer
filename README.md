@@ -66,7 +66,7 @@ Router Configuration on interface G0/0:  <br/>
 
 <h2>Similarly, the switches are configured to assign management IPs and enable VLANs if needed.</h2>
 
-<h2>Screenshot of switch CLI configuration:</h2>
+Screenshot of switch CLI configuration:
 <p align="center">
 Switch Configuration:
 
@@ -91,13 +91,60 @@ Each PC's IP settings were manually configured using the built-in IP configurati
 <h4>PC3:</h4> <img src="https://imgur.com/lHm53IK.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
 </p>
 
+Logical View:
+<p align="center">
+<img src="https://imgur.com/re0dmxK.png" height="80%" width="80%" alt="Configuring PCs"/> <br/>
+
+</p>
+
 ---
 
 ### **4. Running the Simulation**
 Using Packet Tracer's simulation mode, ICMP packets (ping requests) were sent between PCs across subnets. The packet flow was monitored to ensure proper routing and connectivity.
 
 *Screenshot of simulation process:*  
-![Simulation Process](./path/to/simulation_screenshot.png)
+<p align="center">
+  <strong>Steps of the Simulation</strong>
+
+  <ol>
+    <li><strong>PC0 Sends the Ping Request</strong>  
+      At time <strong>0.000 seconds</strong>, PC0 generates an ICMP Echo Request packet (ping) and sends it to its default gateway, <strong>Router R1 (192.168.0.1)</strong>, via <strong>Switch S1</strong>.
+    </li>
+
+    <li><strong>Packet Travels from PC0 to Switch S1</strong>  
+      At time <strong>0.001 seconds</strong>, the packet moves from PC0 to <strong>Switch S1 (192.168.0.2)</strong>.
+    </li>
+
+    <li><strong>Switch S1 Forwards the Packet to Router R1</strong>  
+      At time <strong>0.002 seconds</strong>, Switch S1 identifies the packet’s destination and forwards it to <strong>Router R1 (192.168.0.1)</strong> via interface g0/0.
+    </li>
+
+    <li><strong>Router R1 Routes the Packet to Switch S2</strong>  
+      At time <strong>0.003 seconds</strong>, Router R1 examines its routing table, determines that the destination IP is on the <strong>192.168.1.0/24 subnet</strong>, and forwards the packet to <strong>Switch S2 (192.168.1.2)</strong> via interface g0/1.
+    </li>
+
+    <li><strong>Packet Reaches PC2</strong>  
+      At time <strong>0.004 seconds</strong>, Switch S2 delivers the ICMP Echo Request packet to <strong>PC2 (192.168.1.4)</strong>.
+    </li>
+
+    <li><strong>PC2 Sends the Ping Reply</strong>  
+      PC2 responds with an ICMP Echo Reply packet, which begins its journey back to PC0.
+    </li>
+
+    <li><strong>Reply Packet Travels Back Through the Network</strong>  
+      The Echo Reply follows the reverse path:  
+      <ul>
+        <li><strong>PC2 → Switch S2 → Router R1</strong></li>
+        <li><strong>Router R1 → Switch S1 → PC0</strong></li>
+      </ul>
+    </li>
+
+    <li><strong>Ping Successful</strong>  
+      At time <strong>0.008 seconds</strong>, PC0 receives the Echo Reply, confirming that communication between the two devices is functional.
+    </li>
+  </ol>
+</p>
+
 
 ---
 
