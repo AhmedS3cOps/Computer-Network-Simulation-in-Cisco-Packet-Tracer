@@ -1,13 +1,4 @@
-# Computer-Network-Simulation-in-Cisco-Packet-Tracer
-This project demonstrates the setup and simulation of a computer network using Cisco Packet Tracer. It covers configuring routers, switches, and PCs, setting up IP addresses, and verifying connectivity between devices across subnets.
-That sounds like a great plan! Incorporating the images into your README will make it visually engaging and informative. Here's how we can include them in the flow of your project documentation:
-
----
-
 # **Computer Network Simulation in Cisco Packet Tracer**
-
-## **YouTube Demonstration**
-_Link to the video demonstrating your project._
 
 ## **Description**
 This project demonstrates the setup and simulation of a computer network using Cisco Packet Tracer. It covers configuring routers, switches, and PCs, setting up IP addresses, and verifying connectivity between devices across subnets.
@@ -18,7 +9,7 @@ This project demonstrates the setup and simulation of a computer network using C
 - **Command Line Interface (CLI)**: For router and switch configuration.
 
 ## **Environments Used**
-- **Windows 10**: Operating system for running Cisco Packet Tracer.
+- **Windows 11**: Operating system for running Cisco Packet Tracer.
 
 ## **Program Walk-through**
 
@@ -37,7 +28,7 @@ The initial topology consists of routers, switches, and PCs, with IP configurati
 | PC3        |           | 192.168.1.4  | 255.255.255.0   | 192.168.1.1     |
 
 *Screenshot of the initial setup:*  
-![Initial Setup](./path/to/initial_setup_image.png)
+![Initial Setup](https://imgur.com/a/eZ0zdX3)
 
 ---
 
